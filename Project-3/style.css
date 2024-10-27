@@ -1,0 +1,73 @@
+
+ /* Header Banner  */
+
+
+ .Top-Banner{
+ 
+    /* background-image: url(https://i.pinimg.com/originals/ef/eb/5c/efeb5cd911c076c57cd19ada4b681aa1.jpg);   */
+    background-color: #EBE5FA;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+   
+ }
+
+ 
+
+
+ /* Pricing-Plan-items */
+
+/* media queries */
+
+
+/* Extra small screens (phones) */
+
+@media (max-width: 575.98px) {
+
+  .line-png {
+    /* display: flex;
+    transform: rotate(90deg);
+    justify-content: center;
+    margin-bottom: 300px; */
+    visibility: hidden;
+  }
+ 
+}
+
+/* Medium screens (tablets) */
+
+@media screen and (min-width: 576px) {
+  .line-png {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    transform: rotate(90deg);
+
+    margin: 50px 0;
+  }
+}
+
+ 
+/* Large screens (desktops) */
+
+
+@media screen and (min-width: 768px) {
+  .line-png {
+    display: flex;
+    transform: rotate(360deg);
+    justify-content: center;
+    margin-bottom: 300px;
+  }
+
+  /* .Pricing-Plan-items>div>div{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #651fff;
+} */
+}
